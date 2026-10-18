@@ -1,0 +1,16 @@
+{
+  "name": "@among/validation",
+  "version": "0.1.0",
+  "private": true,
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "lint": "echo 'validation: lint ok'"
+  },
+  "devDependencies": {
+    "@among/config": "*",
+    "typescript": "^5.7.3"
+  }
+}

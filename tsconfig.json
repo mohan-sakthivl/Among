@@ -1,0 +1,12 @@
+{
+  "extends": "./packages/config/tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@among/types": ["./packages/types/src"],
+      "@among/constants": ["./packages/constants/src"],
+      "@among/validation": ["./packages/validation/src"],
+      "@among/ui": ["./packages/ui/src"]
+    }
+  }
+}

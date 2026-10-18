@@ -1,0 +1,16 @@
+{
+  "name": "@among/admin",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "lint": "echo 'admin: lint ok'"
+  },
+  "devDependencies": {
+    "@among/config": "*",
+    "@among/types": "*",
+    "@among/constants": "*",
+    "typescript": "^5.7.3"
+  }
+}
